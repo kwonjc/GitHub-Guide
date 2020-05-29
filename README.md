@@ -35,16 +35,18 @@
  - 100MB 이상 되는 파일 PUSH (로컬 ==> Web 저장소) 방법
 -- git lfs 로 대용량 파일 올리기
 -- CMD 창에서 로컬 Github 저장소 경로로 이동 후 아래 명령문 실행 
+```
 git lfs install
-git lfs track "*.csv" 
+git lfs track "*.csv"
 git add .
 git commit -m "message input"
 git push origin master
+```
 [참고사이트1](https://velog.io/%4029been/Github-100MB%EB%B3%B4%EB%8B%A4-%ED%81%B0-%ED%8C%8C%EC%9D%BC-%EC%98%AC%EB%A6%AC%EA%B8%B0)
 [참고사이트2](https://arclab.tistory.com/216)
 [참고사이트3](https://blog.naver.com/lizziechung/221921218133)
---.gitattributes 확장자 파일은 git lfs track "*.csv" 명령문을 수행하면 자동으로 생성됨(내용은 잘 모르겠음)
--- 대용량 파일 Commit 하다가 실패하면 히스토리 로그를 지워야 하는데 아래 참고 사이트를 참고 해서 수행했지만 해결 되지 않아 그냥 웹저장소를 다시 만들었음
+- .gitattributes 확장자 파일은 git lfs track "*.csv" 명령문을 수행하면 자동으로 생성됨(내용은 잘 모르겠음)
+- 대용량 파일 Commit 하다가 실패하면 히스토리 로그를 지워야 하는데 아래 참고 사이트를 참고 해서 수행했지만 해결 되지 않아 그냥 웹저장소를 다시 만들었음
 [참고사이트](https://jootc.com/p/201909143109)
 
 ## 5. 협업을 위한 권한 부여
@@ -63,33 +65,25 @@ git push origin master
 
  - 마크다운 사용법 및 확인 웹 참고 사이트 추가
 [참고사이트1](https://stackedit.io/app#)
-[참고사이트2](https://gist.github.com/ihoneymon/652be052a0727ad59601).
- - clone vs git fork
+[참고사이트2](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+[참고사이트3](https://velog.io/@yuuuye/velog-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4MarkDown-%EC%9E%91%EC%84%B1%EB%B2%95)
+[참고사이트4](https://4urdev.tistory.com/62)
+ - clone vs git fork 차이
 [참고사이트1](https://velog.io/%40imacoolgirlyo/Git-fork%EC%99%80-clone-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-5sjuhwfzgp)
 [참고사이트2](https://playinlion.tistory.com/29)
- - 로컬 리포지토리에서 폴더 생성한거는 변화한 파일로 탐지 하지 않음 readme 파일이라도 있어야함
- - 브랜치
- - Fork 기능은 상대방의 리포지토리를 내 웹 리포지토리로 그대로 가져 온다. 로컬 컴퓨터에서 가져온 리포지토리를 복제 해서 사용합니다.여러 사람이 프로젝트 할때 원본이 훼손될 위험을 대비해서
-한번더 보기
-푸쉬
- 리퀘스트
-이슈
-와치
-스타
-Action 기능 예시
+  - Fork 기능은 상대방의 리포지토리를 내 웹 리포지토리로 그대로 가져 온다. 로컬 컴퓨터에서 Fork한 리포지토리를 복제 해서 사용합니다.여러 사람이 프로젝트 할때 원본이 훼손될 위험을 대비해서
+  - 로컬 리포지토리에서 폴더 생성한거는 변화한 파일로 탐지 하지 않음 readme 파일이라도 있어야함
+
+- 이슈 : 수정 사항 및 건의 사항 등 소유자에게 요청 할 수 있는데 다른 연계 기능이 많은 거 같음
+- 와치 : 등록하면 소유자의 변화 관리를 확인할 수 있음
+- 스타 : 즐겨찾기 기능
+- Action 기능 예시 : 많은 기능이 있는데 잘 모르겠음
 [참고사이트](https://medium.com/%40elastic7327/%EA%B9%83%ED%97%88%EB%B8%8C%EC%9D%98-%EC%95%A1%EC%85%98-%EA%B8%B0%EB%8A%A5-git-action-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90-ed634d622280)
-### Pull Request 관리하기
-#### Pull Request로 함께 일하기
-#### Pull Request의 Ref
-#### Pull Request
-기본 브랜치 변경
-프로젝트 넘기기
-GitHub project 사용법
-관련 내용이 조금 있는데 이슈 및 다 연동해서 프로젝트에서 사용하는 거 같은데 ?? 추가 확인이 필요
+
+- GitHub 프로젝트 생성 : 관련 내용이 조금 있는데 이슈 및 다 연동해서 프로젝트에서 사용하는 거 같은데 ?? 추가 확인이 필요
 [참고사이트](https://www.huskyhoochu.com/issue-based-version-control-201/)
-이슈 pull request 등 사용법
+- 이슈 pull request 등 사용법
 [참고사이트](https://cheese10yun.github.io/github-proejct/)
--   기초 사용법
-issue, labels, milestone 사용법
+-   기초 사용법 : issue, labels, milestone 사용법
 [참고사이트1](https://uang.tistory.com/11?category=799977)
 [참고사이트2](https://github.com/cau-cmclab/sku-cmclab.github.io/wiki/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91%28GitHub-Desktop%29-%EC%82%AC%EC%9A%A9)
