@@ -16,18 +16,16 @@
 
 ## 2.파이썬 라이브러리를 활용한 데이터 분석 GitHub 저장소
 
- - GitHub([주소](https://github.com/rickiepark/handson-ml)
+ - GitHub([주소](https://github.com/rickiepark/introduction_to_ml_with_python)
  - Read me (2판 책소개, 책 판매 사이트 링크 , 에러타, 설치 , 영어 언어 다운로드) 옮긴이가 어느정도 재구성 
  - Requirement.txt 원저자 GitHub에는 존재 하는데 한글 GitHub에는 없음
 
- - 원저자 GitHub([주소](https://github.com/wesm/pydata-book))
+ - 원저자 GitHub([주소](https://github.com/amueller/introduction_to_ml_with_python))
 
 ## 3.피처 엔지니어링 GitHub 저장소
 
  - GitHub([주소](https://github.com/alicezheng/feature-engineering-book) 원저자 깃허브
  - Read me 짧게 있음
-
- - 원저자 GitHub([주소](https://github.com/wesm/pydata-book))
 
 # 깃 허브 구성 의견
 
