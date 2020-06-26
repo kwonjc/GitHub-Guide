@@ -17,6 +17,8 @@ Stage | Direct Products | ATP Yields
 Glycolysis | 2 ATP ||
 <r2> ct| 2 NADH | 3--5 ATP |
  2 NADH | 5 ATP |
+| <r2> 1 | <c2> 2 |
+| 가 | 나 |
 
 
 
