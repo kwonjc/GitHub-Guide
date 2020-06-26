@@ -20,25 +20,6 @@ learning).            |"Isn't this fun?"            |
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # 참고 GitHub-Guide
 
  1. 핸즈온 머신러닝 GitHub 저장소
