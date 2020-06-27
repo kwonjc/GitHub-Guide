@@ -31,8 +31,7 @@
 page|주석 혹은 본문 내용[URL]
 -----|-----
 ||옮긴이_ 하이프 사이클(hype cycle)은 기술의 성숙도를 표현하기 위한 시각적 도구입니다. 과대광고 주기라고도 합니다. 미국의 정보 기술 연구 및 자문 회사인 가트너에서 개발했습니다.[https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%ED%81%B4]|
-||옮긴이_ 표현학습[representation learning)은 피처학습(feature representation learning)이라고도 하며 원본 데이터의 형상을 학습하여 분석 목적에 적합한 유용한 정보를 추출하거나 파생하는 머신러닝 기법입니다.
-[https://en.wikipedia.org/wiki/Feature_learning]|
+||옮긴이_ 표현학습[representation learning)은 피처학습(feature representation learning)이라고도 하며 원본 데이터의 형상을 학습하여 분석 목적에 적합한 유용한 정보를 추출하거나 파생하는 머신러닝 기법입니다.[https://en.wikipedia.org/wiki/Feature_learning]|
 ||Figure Eight [https://www.figure-eight.com/] 처럼, 데이터에 레이블을 지정하는 수작업을 머신러닝 기법으로 기계가 대신 해주는 서비스를 제공하는 스타트업도 있습니다.|
 ||옮긴이_ 가치 함수(value function)는 일반적으로 강화학습에서 많이 사용되는 용어이며, 어떤 상태에 따라 앞으로 얼마의 보상을 받을수 있을지에 대한 기댓값으로 정의될 수 있습니다. 여기에서 가치 함수는 앞에서 언급한 것처럼 스팸 메일 필터 문제에서 정확하게 분류된 이메일의 비율을 예로 들 수 있습니다.
 [https://minhobby.tistory.com/37]|
