@@ -50,8 +50,7 @@ page|주석 혹은 본문 내용[URL]
 ||파이썬과 머신러닝에 필요한 데이터 과학 라이브러리를 설치하려면 파이썬의 아나콘다 배포판[https://www.anaconda.com/distribution]을 다운로드 하십시오|
 ||시스템의 32비트 또는 64비트 버전에 따라 자신의 시스템에 맞는 버전의 XGBoost [https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost]를 다운로드해야합니다.|
 ||fastcluster에 대한 자세한 정보는 [https://pypi.org/project/fastcluster/] 를 참조하십시오.|
-||옮긴이_ fastcluster 설치 중 다음과 같은 에러 메시지가 나타날 경우 Visual C++ 빌드 도구를 설치해야 합니다.
-error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/ Visual C++ 빌드 도구 설치를 위해서 에러 메시지에 있는 사이트에 접속 후 Visual Studio Community 버전을 다운로드 후 실행하여 Visual C++ 빌드 도구만 설치합니다.|
+||옮긴이_ fastcluster 설치 중 다음과 같은 에러 메시지가 나타날 경우 Visual C++ 빌드 도구를 설치해야 합니다. error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/ Visual C++ 빌드 도구 설치를 위해서 에러 메시지에 있는 사이트에 접속 후 Visual Studio Community 버전을 다운로드 후 실행하여 Visual C++ 빌드 도구만 설치합니다.|
 ||이 데이터 셋은 캐글[https://www.kaggle.com/mlg-ulb/creditcardfraud]을 통해 구할 수 있으며, Worldline과 University of Libre de Bruxelles의 머신러닝 그룹이 공동 연구를 진행하면서 수집한 겁니다. 자세한 정보는 Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi, “Calibrating Probability with Undersampling for Unbalanced Classification” in Symposium on Computational Intelligence and Data Mining(CIDM], IEEE, 2015을 참조하십시오.|
 ||옮긴이_ 이진 분류에서 두 클래스는 포지티브 및 네거티브 레이블로 구분합니다. 모델을 생성하는 목적은 포지티브 레이블 결과를 찾는 겁니다. 사기 탐지 모델에서 포지티브 레이블은 '사기'를 의미합니다.[https://developers.google.com/machine-learning/glossary?hl=ko#p]|
 ||옮긴이_ 희소 행렬은 행렬 값이 대부분 0인 경우를 가리키는 표현으로 범주형 변수를 더미 변수(1과 0의 값을 가지는 변수]로 변환한 행렬을 이야기합니다. 원-핫 인코딩과 동일한 의미를 가집니다.[https://ko.wikipedia.org/wiki/%ED%9D%AC%EC%86%8C%ED%96%89%EB%A0%AC]|
@@ -63,13 +62,10 @@ error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ 
 ||옮긴이_ ROC(수신자 조작 특성 또는 반응자 작용 특성) 곡선은 일반적으로 이진 분류기에 대한 성능을 평가하는 기법입니다. 참 양성 비율(true positive rate, Y축, 민감성) 대 거짓 양성 비율(false positive rate, X축, 1-특이성)을 그래프로 나타냅니다. 신호 탐지 이론에서 가져온 개념으로 세계전쟁 당시 통신에서 사용한 용어(예: 리시버)를 사용합니다. [https://en.wikipedia.org/wiki/Receiver_operating_characteristic]|
 ||XGBoost 그래디언트 부스팅에 대한 더 자세한 내용은 GitHub 리포지토리를 참조하십시오.[https://github.com/dmlc/xgboost]|
 ||옮긴이_ 학습률은 최적화 알고리즘의 매개변수이며. 작은 값을 가지면 더 견고한 모델이 만들어 질 수 있지만 수행시간이 오래 걸립니다. 큰 값을 가지면 수행시간은 짧지만 최적 해를 찾지 못할 수도 있습니다. [https://en.wikipedia.org/wiki/Learning_rate]|
-||마이크로소프트사의 LightGBM 그래디언트 부스팅을 더 알고 싶으면 다음 링크를 참조하십시오.
-[https://github.com/Microsoft/LightGBM]|
+||마이크로소프트사의 LightGBM 그래디언트 부스팅을 더 알고 싶으면 다음 링크를 참조하십시오.[https://github.com/Microsoft/LightGBM]|
 ||머신러닝 솔루션의 결과를 개선하고 과소 적합/과대 적합을 해결하기 위해 하이퍼파라미터(하이퍼파라미터 파인튜닝fine-tuning22이라고 알려진 프로세스)를 조정하는 방법을 살펴보지 않았지만 깃허브 코드[https://github.com/aapatel09/handson-unsupervised-learning]를 통해 이러한 실험을 매우 쉽게 수행할 수 있습니다.|
 ||앙상블 학습에 대한 더 자세한 내용은 다음 세 링크를 참고하십시오.
-Kaggle Ensembling Guide[https://mlwave.com/kaggle-ensembling-guide]
-Introduction to Ensembling/Stacking in Python[https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python]
-A Kaggler’s Guide to Model Stacking in Practice[http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice]|
+Kaggle Ensembling Guide[https://mlwave.com/kaggle-ensembling-guide] Introduction to Ensembling/Stacking in Python[https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python] A Kaggler’s Guide to Model Stacking in Practice[http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice]|
 
 
 
