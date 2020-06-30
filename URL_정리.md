@@ -5,27 +5,6 @@
 
 # 핸즈온 비지도학습 참고 URL
 
-## CHAPTER 0 서문
-
-
-## CHAPTER 1 머신러닝 생태계와 비지도학습
-## CHAPTER 2 머신러닝 프로젝트 A to Z
-## CHAPTER 3 차원 축소
-## CHAPTER 4 이상치 탐지
-## CHAPTER 5 클러스터링 
-## CHAPTER 6 그룹 세분화 
-## CHAPTER 7 오토인코더
-## CHAPTER 8 핸즈온 오토인코더 
-## CHAPTER 9 준지도학습 
-## CHAPTER 10 RBM을 사용한 추천 시스템 
-## CHAPTER 11 DBN을 사용한 피처 추출
-## CHAPTER 12 GAN
-## CHAPTER 13 시계열 클러스터링
-## CHAPTER 14 결론
-
-
-
-
 ## CHAPTER 0 서문 1
 
 page|주석 혹은 본문 내용[URL]
@@ -90,12 +69,16 @@ page|주석 혹은 본문 내용[URL]
 ||옮긴이_ 알파 파라미터의 값이 클수록 더 희소한 주성분을 생성합니다.[https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.SparsePCA.html]|
 ||옮긴이_ 일반적으로 PCA에서 주성분을 생성할 때 평균 빼기(혹은 평균 중심화)를 가장 먼저 진행합니다. 따라서 PCA 역변환에서는 마지막에 평균을 더해줘야 합니다.[https://ko.wikipedia.org/wiki/%EC%A3%BC%EC%84%B1%EB%B6%84_%EB%B6%84%EC%84%9D]|
 ||옮긴이_ 과소완전 사전은 실제 입력 데이터가 저차원 공간에 있는 설정을 나타냅니다. 완전한 사전은 표현적 관점에서 어떠한 개선도 제공하지 않습니다. 앞에서 원본 차원과 동일한 주성분의 수를 생성하는 것은 이상 탐지에서 의미가 없다는 개념과 동일합니다. [https://en.wikipedia.org/wiki/Sparse_dictionary_learning]|
-||여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method]를 참조하세요.|
-||fastcluster에 대한 자세한 내용은 해당 프로젝트 웹 페이지를 확인하십시오. [https://pypi.org/project/fastcluster]|
-||옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
 
 
 ## CHAPTER 5 클러스터링 
+page|주석 혹은 본문 내용[URL]
+-----|-----
+||fastcluster에 대한 자세한 내용은 해당 프로젝트 웹 페이지를 확인하십시오.[https://pypi.org/project/fastcluster]|
+||여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method]를 참조하세요.|
+||옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. [https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
+
+
 ## CHAPTER 6 그룹 세분화 
 page|주석 혹은 본문 내용[URL]
 -----|-----
@@ -119,10 +102,6 @@ page|주석 혹은 본문 내용[URL]
 ||평가지표에 대한 더 자세한 내용은 다음 문서를 참조하십시오.[https://keras.io/metrics]
 
 
-## CHAPTER 9 준지도학습 
-page|주석 혹은 본문 내용[URL]
------|-----
-
 ## CHAPTER 10 RBM을 사용한 추천 시스템 
 page|주석 혹은 본문 내용[URL]
 -----|-----
@@ -132,10 +111,6 @@ page|주석 혹은 본문 내용[URL]
 ||옮긴이_ 이를 순방향 신경망이라고도 합니다. 순방향 신경망에서 정보는 입력 노드로부터 출력 노드 방향으로 한 방향, 전방향으로만 움직이며 숨겨진 노드가 있는 경우 이를 경유합니다. 또한, 네트워크 안에서 순환이나 루프는 존재하지 않습니다.[https://ko.wikipedia.org/wiki/%EC%88%9C%EB%B0%A9%ED%96%A5_%EC%8B%A0%EA%B2%BD%EB%A7%9D]|
 ||이 주제에 대한 더 자세한 내용은 “On Contrastive Divergence Learning” 논문을 참조하십시오.[http://www.cs.toronto.edu/~fritz/absps/cdmiguel.pdf]|
 
-
-## CHAPTER 11 DBN을 사용한 피처 
-page|주석 혹은 본문 내용[URL]
------|-----
 
 ## CHAPTER 12 GAN
 page|주석 혹은 본문 내용[URL]
@@ -167,4 +142,4 @@ page|주석 혹은 본문 내용[URL]
 -----|-----
 ||PitchBook[https://pitchbook.com/news/articles/2017-year-in-review-the-top-vc-rounds-investors-in-ai]에 따르면 벤처 캐피탈 투자자는 2017년 AI 및 머신러닝 회사에 108억 달러 이상을 투자했습니다. 이는 2010년 5억 달러에서 지속적으로 증가했으며, 2016년에 투자된 57억 달러의 거의 2배 가까운 수치입니다.|
 ||옮긴이_ 대부분 머신러닝 기반 객체 분류 알고리즘은 큰 데이터 셋(수백 또는 수천 개 샘플/이미지)의 학습이 필요한 반면, 원 샷 학습은 하나 또는 몇 개의 샘플/이미지에서 객체 범주에 대한 정보를 분류하도록 학습하는 것이 목표입니다. 제로 샷 학습은 전이학습에서 발전된 머신러닝의 한 종류입니다. 특정 문제를 학습한 경험이 없어도 이미 저장된 데이터 변형 및 특징을 분석합니다. 훈련 데이터가 거의 또는 전혀 없어도 유용한 패턴 인식할 수 있게 하는 것이 목표입니다.[https://en.wikipedia.org/wiki/One-shot_learning] [https://en.wikipedia.org/wiki/Zero-shot_learning]|
-||옮긴이_ 하이프 사이클(hype cycle)은 기술의 성숙도를 표현하기 위한 시각적 도구입니다. 과대광고 주기라고도 합니다. 미국의 정보 기술 연구 및 자문 회사인 가트너에서 개발했습니다.[https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%ED%81%B4]
+||옮긴이_ 하이프 사이클(hype cycle)은 기술의 성숙도를 표현하기 위한 시각적 도구입니다. 과대광고 주기라고도 합니다. 미국의 정보 기술 연구 및 자문 회사인 가트너에서 개발했습니다.[https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%ED%81%B4]|
