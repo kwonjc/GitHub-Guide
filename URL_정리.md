@@ -74,72 +74,72 @@ page|주석 혹은 본문 내용[URL]
 ## CHAPTER 5 클러스터링 
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||fastcluster에 대한 자세한 내용은 해당 프로젝트 웹 페이지를 확인하십시오.[https://pypi.org/project/fastcluster]|
-||여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method] 를 참조하세요.|
-||옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. [https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
+|201P|fastcluster에 대한 자세한 내용은 해당 프로젝트 웹 페이지를 확인하십시오.[https://pypi.org/project/fastcluster]|
+|201P|여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method] 를 참조하세요.|
+|210P|옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. [https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
 
 
 ## CHAPTER 6 그룹 세분화 
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||옮긴이_ P2P(peer-to-peer) 대출은 온라인에서 여러 명이 투자금을 모아 다른 개인이나 기업에게 빌려주는 방식으로 대출을 중개하는 금융 서비스입니다. [https://ko.wikipedia.org/wiki/P2P_%EB%8C%80%EC%B6%9C]|
-||[https://www.lendingclub.com/auth/login?login_url=%2Finfo%2Fdownload-data.action]|
-||옮긴이_ NaN(Not a Number)은 컴퓨터 연산 과정에서 잘못된 입력을 받았음을 나타내는 기호입니다. 특히 부동 소수점 연산에서 사용합니다. 예를 들어서, 대부분 부동 소수점 장치는 음수에 제곱근을 구하려는 연산에 대해서 이것은 불가능(invalid)하다는 메시지와 함께 NaN 값을 반환합니다. [https://en.wikipedia.org/wiki/NaN]|
+|214P|옮긴이_ P2P(peer-to-peer) 대출은 온라인에서 여러 명이 투자금을 모아 다른 개인이나 기업에게 빌려주는 방식으로 대출을 중개하는 금융 서비스입니다. [https://ko.wikipedia.org/wiki/P2P_%EB%8C%80%EC%B6%9C]|
+|214P|[https://www.lendingclub.com/auth/login?login_url=%2Finfo%2Fdownload-data.action]|
+|217P|옮긴이_ NaN(Not a Number)은 컴퓨터 연산 과정에서 잘못된 입력을 받았음을 나타내는 기호입니다. 특히 부동 소수점 연산에서 사용합니다. 예를 들어서, 대부분 부동 소수점 장치는 음수에 제곱근을 구하려는 연산에 대해서 이것은 불가능(invalid)하다는 메시지와 함께 NaN 값을 반환합니다. [https://en.wikipedia.org/wiki/NaN]|
 
 ## CHAPTER 7 오토인코더
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||텐서플로를 더 자세히 알아보려면 다음 웹사이트를 참조하십시오.[https://www.tensorflow.org]|
-||옮긴이_ 항등 함수란 모든 정의역 x에 대해 f(x) = x를 만족하는 함수입니다.[https://en.wikipedia.org/wiki/Identity_function]|
+|242P|텐서플로를 더 자세히 알아보려면 다음 웹사이트를 참조하십시오.[https://www.tensorflow.org]|
+|244P|옮긴이_ 항등 함수란 모든 정의역 x에 대해 f(x) = x를 만족하는 함수입니다.[https://en.wikipedia.org/wiki/Identity_function]|
 
 ## CHAPTER 8 핸즈온 오토인코더 
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||케라스 순차 모델을 더 자세히 알고 싶으면 다음 공식 문서를 참조하십시오.[https://keras.io/getting-started/sequential-model-guide]|
-||손실 함수를 더 자세히 알고 싶으면 공식 케라스 문서를 참조하십시오.[https://keras.io/losses]
-||확률적 그래디언트 하강법을 더 자세히 알고 싶으면 위키피디아를 참조하십시오.[https://en.wikipedia.org/wiki/Stochastic_gradient_descent]|
-||옵티마이저를 더 자세히 알고 싶으면 다음 문서를 참조하십시오.[https://keras.io/optimizers.]|
-||평가지표에 대한 더 자세한 내용은 다음 문서를 참조하십시오.[https://keras.io/metrics]
+|256P|케라스 순차 모델을 더 자세히 알고 싶으면 다음 공식 문서를 참조하십시오.[https://keras.io/getting-started/sequential-model-guide]|
+|258P|손실 함수를 더 자세히 알고 싶으면 공식 케라스 문서를 참조하십시오.[https://keras.io/losses]
+|258P|확률적 그래디언트 하강법을 더 자세히 알고 싶으면 위키피디아를 참조하십시오.[https://en.wikipedia.org/wiki/Stochastic_gradient_descent]|
+|258P|옵티마이저를 더 자세히 알고 싶으면 다음 문서를 참조하십시오.[https://keras.io/optimizers.]|
+|259P|평가지표에 대한 더 자세한 내용은 다음 문서를 참조하십시오.[https://keras.io/metrics]
 
 
 ## CHAPTER 10 RBM을 사용한 추천 시스템 
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||옮긴이_ 판도라는 뮤직 게놈 프로젝트에 기반한 자동 음악 추천 시스템 및 인터넷 라디오 서비스입니다.[https://ko.wikipedia.org/wiki/%ED%8C%90%EB%8F%84%EB%9D%BC_(%EC%9D%8C%EC%95%85_%EC%84%9C%EB%B9%84%EC%8A%A4]|
-||무비렌즈 웹 사이트[https://grouplens.org/datasets/movielens/20m/] 에서 직접 파일을 다운로드해야 합니다.
-||옮긴이_ 임베딩은 수학적 개념으로 고차원 공간의 데이터를 저차원 숫자형 벡터 공간으로 변환한 결과입니다. 여기서는 1차원 사용자 벡터와 1차원 영화 벡터를 잠재요인 벡터 공간으로 변환하는 겁니다. [https://en.wikipedia.org/wiki/Word_embedding]|
-||옮긴이_ 이를 순방향 신경망이라고도 합니다. 순방향 신경망에서 정보는 입력 노드로부터 출력 노드 방향으로 한 방향, 전방향으로만 움직이며 숨겨진 노드가 있는 경우 이를 경유합니다. 또한, 네트워크 안에서 순환이나 루프는 존재하지 않습니다.[https://ko.wikipedia.org/wiki/%EC%88%9C%EB%B0%A9%ED%96%A5_%EC%8B%A0%EA%B2%BD%EB%A7%9D]|
-||이 주제에 대한 더 자세한 내용은 “On Contrastive Divergence Learning” 논문을 참조하십시오.[http://www.cs.toronto.edu/~fritz/absps/cdmiguel.pdf]|
+|315P|옮긴이_ 판도라는 뮤직 게놈 프로젝트에 기반한 자동 음악 추천 시스템 및 인터넷 라디오 서비스입니다.[https://ko.wikipedia.org/wiki/%ED%8C%90%EB%8F%84%EB%9D%BC_(%EC%9D%8C%EC%95%85_%EC%84%9C%EB%B9%84%EC%8A%A4]|
+|317P|무비렌즈 웹 사이트[https://grouplens.org/datasets/movielens/20m/] 에서 직접 파일을 다운로드해야 합니다.
+|325P|옮긴이_ 임베딩은 수학적 개념으로 고차원 공간의 데이터를 저차원 숫자형 벡터 공간으로 변환한 결과입니다. 여기서는 1차원 사용자 벡터와 1차원 영화 벡터를 잠재요인 벡터 공간으로 변환하는 겁니다. [https://en.wikipedia.org/wiki/Word_embedding]|
+|328P|옮긴이_ 이를 순방향 신경망이라고도 합니다. 순방향 신경망에서 정보는 입력 노드로부터 출력 노드 방향으로 한 방향, 전방향으로만 움직이며 숨겨진 노드가 있는 경우 이를 경유합니다. 또한, 네트워크 안에서 순환이나 루프는 존재하지 않습니다.[https://ko.wikipedia.org/wiki/%EC%88%9C%EB%B0%A9%ED%96%A5_%EC%8B%A0%EA%B2%BD%EB%A7%9D]|
+|333P|이 주제에 대한 더 자세한 내용은 “On Contrastive Divergence Learning” 논문을 참조하십시오.[http://www.cs.toronto.edu/~fritz/absps/cdmiguel.pdf]|
 
 
 ## CHAPTER 12 GAN
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||DCGAN을 더 자세히 알고 싶으면 다음 공식 문서를 참조하십시오. [https://arxiv.org/abs/1511.06434]|
-||컨볼루션 계층을 자세히 살펴보려면 “An Introduction to Different Types of Convolutions in Deep Learning”을 참조하십시오.[https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d]|
-||옮긴이_ 일반적으로 풀링(pooling)은 2차원 데이터의 세로, 가로 방향의 공간을 줄이는 연산입니다. 종류로는 최대 풀링(Max Pooling), 평균 풀링(Average Pooling) 등이 있습니다. 최대 풀링은 대상 영역에서 최댓값을 취하는 연산이고, 평균 풀링은 대상 영역의 평균을 계산하는 연산입니다. 보통 이미지 인식 분야에서는 최대 풀링을 주로 사용합니다.[https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer]|
-||컨볼루션 계층을 더 자세히 살펴보려면 이 장의 앞부분에서 언급한 “An Introduction to Different Types of Convolutions in Deep Learning”을 참조하십시오. [https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d]| 
-||원본 코드를 보려면 로엘 아티엔자의 GitHub를 방문하십시오.[https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py]|
-||LeakyReLU[https://keras.io/layers/advanced-activations/]는 일반 ReLU와 유사한 고급 활성화 함수이지만 유닛이 활성화되지 않은 경우 작은 그래디언트를 허용합니다. 머신러닝 이미지 문제에서 선호되는 활성화 함수입니다.|
-||우리가 만든 솔루션도 성능이 꽤 좋은 편이지만, 그 외에도 MNIST DCGAN의 성능을 향상시킬 수 있는 다양한 방법이 있습니다. “Improved Techniques for Training GANs[https://arxiv.org/pdf/1606.03498.pdf]” 논문과 함께 제공되는 코드[https://github.com/openai/improved-gan]에서 GAN의 성능을 향상시키기 위해 더욱 진보된 방법을 살펴볼 수 있습니다.|
-||자세한 내용은 OpenAI 블로그의 생성 모델 게시물을 확인하십시오. [https://openai.com/blog/generative-models/]|
-||더 자세히 알아보고 싶으면 다음 논문을 살펴보십시오. [https://arxiv.org/abs/1406.2661]|
-||다음의 게시물에서 GAN을 개선[https://github.com/soumith/ganhacks]하고 성능을 향상[https://medium.com/@utk.is.here/keep-calm-and-train-a-gan-pitfalls-and-tips-on-training-generative-adversarial-networks-edd529764aa9]시키는 몇 가지 팁과 방법을 확인하십시오.|
+|377P|DCGAN을 더 자세히 알고 싶으면 다음 공식 문서를 참조하십시오. [https://arxiv.org/abs/1511.06434]|
+|378P|컨볼루션 계층을 자세히 살펴보려면 “An Introduction to Different Types of Convolutions in Deep Learning”을 참조하십시오.[https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d]|
+|378P|옮긴이_ 일반적으로 풀링(pooling)은 2차원 데이터의 세로, 가로 방향의 공간을 줄이는 연산입니다. 종류로는 최대 풀링(Max Pooling), 평균 풀링(Average Pooling) 등이 있습니다. 최대 풀링은 대상 영역에서 최댓값을 취하는 연산이고, 평균 풀링은 대상 영역의 평균을 계산하는 연산입니다. 보통 이미지 인식 분야에서는 최대 풀링을 주로 사용합니다.[https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer]|
+|383P|컨볼루션 계층을 더 자세히 살펴보려면 이 장의 앞부분에서 언급한 “An Introduction to Different Types of Convolutions in Deep Learning”을 참조하십시오. [https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d]| 
+|384P|원본 코드를 보려면 로엘 아티엔자의 GitHub를 방문하십시오.[https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py]|
+|385P|LeakyReLU[https://keras.io/layers/advanced-activations/]는 일반 ReLU와 유사한 고급 활성화 함수이지만 유닛이 활성화되지 않은 경우 작은 그래디언트를 허용합니다. 머신러닝 이미지 문제에서 선호되는 활성화 함수입니다.|
+|392P|우리가 만든 솔루션도 성능이 꽤 좋은 편이지만, 그 외에도 MNIST DCGAN의 성능을 향상시킬 수 있는 다양한 방법이 있습니다. “Improved Techniques for Training GANs[https://arxiv.org/pdf/1606.03498.pdf]” 논문과 함께 제공되는 코드[https://github.com/openai/improved-gan]에서 GAN의 성능을 향상시키기 위해 더욱 진보된 방법을 살펴볼 수 있습니다.|
+|392P|자세한 내용은 OpenAI 블로그의 생성 모델 게시물을 확인하십시오. [https://openai.com/blog/generative-models/]|
+|392P|더 자세히 알아보고 싶으면 다음 논문을 살펴보십시오. [https://arxiv.org/abs/1406.2661]|
+|393P|다음의 게시물에서 GAN을 개선[https://github.com/soumith/ganhacks]하고 성능을 향상[https://medium.com/@utk.is.here/keep-calm-and-train-a-gan-pitfalls-and-tips-on-training-generative-adversarial-networks-edd529764aa9]시키는 몇 가지 팁과 방법을 확인하십시오.|
 
 ## CHAPTER 13 시계열 
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||옮긴이_ 스케일링 및 이동의 변화에 불변하는 유사성 척도를 더 알고 싶으면 다음을 참조하십시오.[https://patents.google.com/patent/KR101649766B1/ko]|
-||이 논문은 여기에 공개되어 있습니다. [http://www.cs.columbia.edu/~jopa/kshape.html]|
-||UCR 시계열 웹 사이트에서 파일을 다운로드해야 합니다.[https://www.cs.ucr.edu/~eamonn/time_series_data/]|
-||하이퍼파라미터에 대한 자세한 내용은 공식 k-shape 문서를 참조하십시오. [https://tslearn.readthedocs.io/en/latest/gen_modules/clustering/tslearn.clustering.KShape.html#tslearn.clustering.KShape]|
-||Rand 지수에 대한 자세한 내용은 Wikipedia를 참조하십시오. [https://en.wikipedia.org/wiki/Rand_index]|
+|397P|옮긴이_ 스케일링 및 이동의 변화에 불변하는 유사성 척도를 더 알고 싶으면 다음을 참조하십시오.[https://patents.google.com/patent/KR101649766B1/ko]|
+|397P|이 논문은 여기에 공개되어 있습니다. [http://www.cs.columbia.edu/~jopa/kshape.html]|
+|398P|UCR 시계열 웹 사이트에서 파일을 다운로드해야 합니다.[https://www.cs.ucr.edu/~eamonn/time_series_data/]|
+|405P|하이퍼파라미터에 대한 자세한 내용은 공식 k-shape 문서를 참조하십시오. [https://tslearn.readthedocs.io/en/latest/gen_modules/clustering/tslearn.clustering.KShape.html#tslearn.clustering.KShape]|
+|405P|Rand 지수에 대한 자세한 내용은 Wikipedia를 참조하십시오. [https://en.wikipedia.org/wiki/Rand_index]|
 
 
 
 ## CHAPTER 14 결론
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||PitchBook[https://pitchbook.com/news/articles/2017-year-in-review-the-top-vc-rounds-investors-in-ai] 에 따르면 벤처 캐피탈 투자자는 2017년 AI 및 머신러닝 회사에 108억 달러 이상을 투자했습니다. 이는 2010년 5억 달러에서 지속적으로 증가했으며, 2016년에 투자된 57억 달러의 거의 2배 가까운 수치입니다.|
-||옮긴이_ 대부분 머신러닝 기반 객체 분류 알고리즘은 큰 데이터 셋(수백 또는 수천 개 샘플/이미지)의 학습이 필요한 반면, 원 샷 학습은 하나 또는 몇 개의 샘플/이미지에서 객체 범주에 대한 정보를 분류하도록 학습하는 것이 목표입니다. 제로 샷 학습은 전이학습에서 발전된 머신러닝의 한 종류입니다. 특정 문제를 학습한 경험이 없어도 이미 저장된 데이터 변형 및 특징을 분석합니다. 훈련 데이터가 거의 또는 전혀 없어도 유용한 패턴 인식할 수 있게 하는 것이 목표입니다.[https://en.wikipedia.org/wiki/One-shot_learning] [https://en.wikipedia.org/wiki/Zero-shot_learning]|
-||옮긴이_ 하이프 사이클(hype cycle)은 기술의 성숙도를 표현하기 위한 시각적 도구입니다. 과대광고 주기라고도 합니다. 미국의 정보 기술 연구 및 자문 회사인 가트너에서 개발했습니다.[https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%ED%81%B4]|
+|425P|PitchBook[https://pitchbook.com/news/articles/2017-year-in-review-the-top-vc-rounds-investors-in-ai] 에 따르면 벤처 캐피탈 투자자는 2017년 AI 및 머신러닝 회사에 108억 달러 이상을 투자했습니다. 이는 2010년 5억 달러에서 지속적으로 증가했으며, 2016년에 투자된 57억 달러의 거의 2배 가까운 수치입니다.|
+|431P|옮긴이_ 대부분 머신러닝 기반 객체 분류 알고리즘은 큰 데이터 셋(수백 또는 수천 개 샘플/이미지)의 학습이 필요한 반면, 원 샷 학습은 하나 또는 몇 개의 샘플/이미지에서 객체 범주에 대한 정보를 분류하도록 학습하는 것이 목표입니다. 제로 샷 학습은 전이학습에서 발전된 머신러닝의 한 종류입니다. 특정 문제를 학습한 경험이 없어도 이미 저장된 데이터 변형 및 특징을 분석합니다. 훈련 데이터가 거의 또는 전혀 없어도 유용한 패턴 인식할 수 있게 하는 것이 목표입니다.[https://en.wikipedia.org/wiki/One-shot_learning] [https://en.wikipedia.org/wiki/Zero-shot_learning]|
+|431P|옮긴이_ 하이프 사이클(hype cycle)은 기술의 성숙도를 표현하기 위한 시각적 도구입니다. 과대광고 주기라고도 합니다. 미국의 정보 기술 연구 및 자문 회사인 가트너에서 개발했습니다.[https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%ED%81%B4]|
