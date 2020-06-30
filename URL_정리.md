@@ -28,12 +28,12 @@ page|주석 혹은 본문 내용[URL]
 ## CHAPTER 2 머신러닝 프로젝트 A to Z
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||아직 Git [https://git-scm.com]을 설치하지 않았다면 Git을 설치해야 합니다. Git은 코드를 위한 버전 관리 시스템이며, 이 책의 모든 코딩 예제는 깃허브 리포지토리[https://github.com/aapatel09/handson-unsupervised-learning]에서 가져와 주피터 노트북으로 이용할 수 있습니다.|
-||로저 더들러의 깃 가이드[http://rogerdudler.github.io/git-guide]를 살펴보고 리포지토리를 복제하고 변경 사항을 추가, 커밋 및 푸시하고 브랜치를 사용하여 버전 관리를 유지하는 방법을 알아보십시오.|
-||다음 프롬프트를 사용하여 깃허브에서 이 책과 관련된 리포지토리를 복제하십시오. 또는 깃허브의 리포지토리[https://github.com/aapatel09/handson-unsupervisedlearning]를 방문하여 리포지토리를 수동 다운로드하여 사용할 수 있습니다.|
+||아직 Git [https://git-scm.com] 을 설치하지 않았다면 Git을 설치해야 합니다. Git은 코드를 위한 버전 관리 시스템이며, 이 책의 모든 코딩 예제는 깃허브 리포지토리[https://github.com/aapatel09/handson-unsupervised-learning] 에서 가져와 주피터 노트북으로 이용할 수 있습니다.|
+||로저 더들러의 깃 가이드[http://rogerdudler.github.io/git-guide] 를 살펴보고 리포지토리를 복제하고 변경 사항을 추가, 커밋 및 푸시하고 브랜치를 사용하여 버전 관리를 유지하는 방법을 알아보십시오.|
+||다음 프롬프트를 사용하여 깃허브에서 이 책과 관련된 리포지토리를 복제하십시오. 또는 깃허브의 리포지토리[https://github.com/aapatel09/handson-unsupervisedlearning] 를 방문하여 리포지토리를 수동 다운로드하여 사용할 수 있습니다.|
 ||옮긴이_ LFS란 Large File Storage를 뜻하고 대용량 파일을 관리하는 Git 저장소입니다. 대용량 파일을 복제하기 위해서는 LFS를 로컬 컴퓨터에 설치한 후 리포지토리를 복제해야 파일이 잘 복제됩니다. LFS를 설치하지 않고 리포지토리를 복제할 경우 일부 파일이 복제되지 않습니다. git LFS 설치 파일 다운로드 경로는 다음과 같습니다.[https://git-lfs.github.com]|
-||파이썬과 머신러닝에 필요한 데이터 과학 라이브러리를 설치하려면 파이썬의 아나콘다 배포판[https://www.anaconda.com/distribution]을 다운로드 하십시오.|
-||시스템의 32비트 또는 64비트 버전에 따라 자신의 시스템에 맞는 버전의 XGBoost [https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost]를 다운로드해야합니다.|
+||파이썬과 머신러닝에 필요한 데이터 과학 라이브러리를 설치하려면 파이썬의 아나콘다 배포판[https://www.anaconda.com/distribution] 을 다운로드 하십시오.|
+||시스템의 32비트 또는 64비트 버전에 따라 자신의 시스템에 맞는 버전의 XGBoost [https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost] 를 다운로드해야합니다.|
 ||fastcluster에 대한 자세한 정보는 [https://pypi.org/project/fastcluster/] 를 참조하십시오.|
 ||옮긴이_ fastcluster 설치 중 다음과 같은 에러 메시지가 나타날 경우 Visual C++ 빌드 도구를 설치해야 합니다. error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/ Visual C++ 빌드 도구 설치를 위해서 에러 메시지에 있는 사이트에 접속 후 Visual Studio Community 버전을 다운로드 후 실행하여 Visual C++ 빌드 도구만 설치합니다.|
 ||이 데이터 셋은 캐글[https://www.kaggle.com/mlg-ulb/creditcardfraud]을 통해 구할 수 있으며, Worldline과 University of Libre de Bruxelles의 머신러닝 그룹이 공동 연구를 진행하면서 수집한 겁니다. 자세한 정보는 Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi, “Calibrating Probability with Undersampling for Unbalanced Classification” in Symposium on Computational Intelligence and Data Mining(CIDM], IEEE, 2015을 참조하십시오.|
@@ -41,7 +41,7 @@ page|주석 혹은 본문 내용[URL]
 ||옮긴이_ 희소 행렬은 행렬 값이 대부분 0인 경우를 가리키는 표현으로 범주형 변수를 더미 변수(1과 0의 값을 가지는 변수]로 변환한 행렬을 이야기합니다. 원-핫 인코딩과 동일한 의미를 가집니다.[https://ko.wikipedia.org/wiki/%ED%9D%AC%EC%86%8C%ED%96%89%EB%A0%AC]|
 ||옮긴이_ 층화매개변수는 층화 추출 방식으로 데이터 샘플링하기 위해 지정하는 기준 변수를 말합니다. 모집단의 해당 기준 변수 비율에 맞추어 데이터를 표본 추출하여, 샘플 데이터의 특성 분포를 모집단과 유사하게 맞추기 위해 사용합니다.[https://en.wikipedia.org/wiki/Stratified_sampling]|
 ||옮긴이_ 랜덤 시드를 의미합니다. 난수 생성 함수는 시드를 기반으로 난수를 발생시키고 시드가 동일하면 동일한 난수를 발생시키게 됩니다. 파이썬 코드상 용어(random state)를 살려서 랜덤 상태로 번역했습니다. [https://en.wikipedia.org/wiki/Random_seed]|
-||층화매개변수가 포지티브 레이블의 비율을 유지하는 방법을 자세히 알고 싶으면 공식 웹 사이트를 방문하십시오[https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html]. 실험에서 동일한 분할을 재현하려면 랜덤 상태를 2018로 설정합니다. 이것을 다른 숫자로 설정하거나 아무것도 설정하지 않으면 결과가 달라집니다.|
+||층화매개변수가 포지티브 레이블의 비율을 유지하는 방법을 자세히 알고 싶으면 공식 웹 사이트를 방문하십시오.[https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html] 실험에서 동일한 분할을 재현하려면 랜덤 상태를 2018로 설정합니다. 이것을 다른 숫자로 설정하거나 아무것도 설정하지 않으면 결과가 달라집니다.|
 ||L1과 L2에 대한 자세한 정보는“Differences Between L1 and L2 as Loss Function and Regularization.” 블로그 포스트를 참조하십시오. [http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/]|
 ||옮긴이_ solver 매개변수는 최적화에 사용되는 해 찾기 알고리즘을 지정합니다. Solver를 자세히 알고 싶으면 다음 웹 사이트를 방문하십시오. [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]|
 ||옮긴이_ ROC(수신자 조작 특성 또는 반응자 작용 특성) 곡선은 일반적으로 이진 분류기에 대한 성능을 평가하는 기법입니다. 참 양성 비율(true positive rate, Y축, 민감성) 대 거짓 양성 비율(false positive rate, X축, 1-특이성)을 그래프로 나타냅니다. 신호 탐지 이론에서 가져온 개념으로 세계전쟁 당시 통신에서 사용한 용어(예: 리시버)를 사용합니다. [https://en.wikipedia.org/wiki/Receiver_operating_characteristic]|
@@ -75,7 +75,7 @@ page|주석 혹은 본문 내용[URL]
 page|주석 혹은 본문 내용[URL]
 -----|-----
 ||fastcluster에 대한 자세한 내용은 해당 프로젝트 웹 페이지를 확인하십시오.[https://pypi.org/project/fastcluster]|
-||여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method]를 참조하세요.|
+||여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method] 를 참조하세요.|
 ||옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. [https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
 
 
@@ -106,7 +106,7 @@ page|주석 혹은 본문 내용[URL]
 page|주석 혹은 본문 내용[URL]
 -----|-----
 ||옮긴이_ 판도라는 뮤직 게놈 프로젝트에 기반한 자동 음악 추천 시스템 및 인터넷 라디오 서비스입니다.[https://ko.wikipedia.org/wiki/%ED%8C%90%EB%8F%84%EB%9D%BC_(%EC%9D%8C%EC%95%85_%EC%84%9C%EB%B9%84%EC%8A%A4]|
-||무비렌즈 웹 사이트[https://grouplens.org/datasets/movielens/20m/]에서 직접 파일을 다운로드해야 합니다.
+||무비렌즈 웹 사이트[https://grouplens.org/datasets/movielens/20m/] 에서 직접 파일을 다운로드해야 합니다.
 ||옮긴이_ 임베딩은 수학적 개념으로 고차원 공간의 데이터를 저차원 숫자형 벡터 공간으로 변환한 결과입니다. 여기서는 1차원 사용자 벡터와 1차원 영화 벡터를 잠재요인 벡터 공간으로 변환하는 겁니다. [https://en.wikipedia.org/wiki/Word_embedding]|
 ||옮긴이_ 이를 순방향 신경망이라고도 합니다. 순방향 신경망에서 정보는 입력 노드로부터 출력 노드 방향으로 한 방향, 전방향으로만 움직이며 숨겨진 노드가 있는 경우 이를 경유합니다. 또한, 네트워크 안에서 순환이나 루프는 존재하지 않습니다.[https://ko.wikipedia.org/wiki/%EC%88%9C%EB%B0%A9%ED%96%A5_%EC%8B%A0%EA%B2%BD%EB%A7%9D]|
 ||이 주제에 대한 더 자세한 내용은 “On Contrastive Divergence Learning” 논문을 참조하십시오.[http://www.cs.toronto.edu/~fritz/absps/cdmiguel.pdf]|
@@ -140,6 +140,6 @@ page|주석 혹은 본문 내용[URL]
 ## CHAPTER 14 결론
 page|주석 혹은 본문 내용[URL]
 -----|-----
-||PitchBook[https://pitchbook.com/news/articles/2017-year-in-review-the-top-vc-rounds-investors-in-ai]에 따르면 벤처 캐피탈 투자자는 2017년 AI 및 머신러닝 회사에 108억 달러 이상을 투자했습니다. 이는 2010년 5억 달러에서 지속적으로 증가했으며, 2016년에 투자된 57억 달러의 거의 2배 가까운 수치입니다.|
+||PitchBook[https://pitchbook.com/news/articles/2017-year-in-review-the-top-vc-rounds-investors-in-ai] 에 따르면 벤처 캐피탈 투자자는 2017년 AI 및 머신러닝 회사에 108억 달러 이상을 투자했습니다. 이는 2010년 5억 달러에서 지속적으로 증가했으며, 2016년에 투자된 57억 달러의 거의 2배 가까운 수치입니다.|
 ||옮긴이_ 대부분 머신러닝 기반 객체 분류 알고리즘은 큰 데이터 셋(수백 또는 수천 개 샘플/이미지)의 학습이 필요한 반면, 원 샷 학습은 하나 또는 몇 개의 샘플/이미지에서 객체 범주에 대한 정보를 분류하도록 학습하는 것이 목표입니다. 제로 샷 학습은 전이학습에서 발전된 머신러닝의 한 종류입니다. 특정 문제를 학습한 경험이 없어도 이미 저장된 데이터 변형 및 특징을 분석합니다. 훈련 데이터가 거의 또는 전혀 없어도 유용한 패턴 인식할 수 있게 하는 것이 목표입니다.[https://en.wikipedia.org/wiki/One-shot_learning] [https://en.wikipedia.org/wiki/Zero-shot_learning]|
 ||옮긴이_ 하이프 사이클(hype cycle)은 기술의 성숙도를 표현하기 위한 시각적 도구입니다. 과대광고 주기라고도 합니다. 미국의 정보 기술 연구 및 자문 회사인 가트너에서 개발했습니다.[https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%ED%81%B4]|
