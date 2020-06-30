@@ -70,8 +70,7 @@ page|주석 혹은 본문 내용[URL]
 ||옮긴이_ 학습률은 최적화 알고리즘의 매개변수이며. 작은 값을 가지면 더 견고한 모델이 만들어 질 수 있지만 수행시간이 오래 걸립니다. 큰 값을 가지면 수행시간은 짧지만 최적 해를 찾지 못할 수도 있습니다. [https://en.wikipedia.org/wiki/Learning_rate]|
 ||마이크로소프트사의 LightGBM 그래디언트 부스팅을 더 알고 싶으면 다음 링크를 참조하십시오.[https://github.com/Microsoft/LightGBM]|
 ||머신러닝 솔루션의 결과를 개선하고 과소 적합/과대 적합을 해결하기 위해 하이퍼파라미터(하이퍼파라미터 파인튜닝fine-tuning22이라고 알려진 프로세스)를 조정하는 방법을 살펴보지 않았지만 깃허브 코드[https://github.com/aapatel09/handson-unsupervised-learning]를 통해 이러한 실험을 매우 쉽게 수행할 수 있습니다.|
-||앙상블 학습에 대한 더 자세한 내용은 다음 세 링크를 참고하십시오.
-Kaggle Ensembling Guide[https://mlwave.com/kaggle-ensembling-guide] Introduction to Ensembling/Stacking in Python[https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python] A Kaggler’s Guide to Model Stacking in Practice[http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice]|
+||앙상블 학습에 대한 더 자세한 내용은 다음 세 링크를 참고하십시오. Kaggle Ensembling Guide[https://mlwave.com/kaggle-ensembling-guide] Introduction to Ensembling/Stacking in Python[https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python] A Kaggler’s Guide to Model Stacking in Practice[http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice]|
 
 ## CHAPTER 3 차원 축소
 page|주석 혹은 본문 내용[URL]
@@ -93,7 +92,7 @@ page|주석 혹은 본문 내용[URL]
 ||옮긴이_ 과소완전 사전은 실제 입력 데이터가 저차원 공간에 있는 설정을 나타냅니다. 완전한 사전은 표현적 관점에서 어떠한 개선도 제공하지 않습니다. 앞에서 원본 차원과 동일한 주성분의 수를 생성하는 것은 이상 탐지에서 의미가 없다는 개념과 동일합니다. [https://en.wikipedia.org/wiki/Sparse_dictionary_learning]|
 ||여기서 ward는 와드의 최소 분산 방법Ward’s minimum variance method을 의미합니다. 이 방법을 더 알아보려면 온라인 링크[https://en.wikipedia.org/wiki/Ward's_method]를 참조하세요.|
 ||fastcluster에 대한 자세한 내용은 해당 프로젝트 웹 페이지를 확인하십시오. [https://pypi.org/project/fastcluster]|
-||옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. [https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
+||옮긴이_ 롱테일(long tail)은 파레토 법칙을 그래프에 나타냈을 때 기하 급수적으로 줄어들며 꼬리처럼 긴 모양을 형성하는 나머지 20%를 말합니다. https://ko.wikipedia.org/wiki/%EA%B8%B4_%EA%BC%AC%EB%A6%AC]|
 
 
 ## CHAPTER 5 클러스터링 
