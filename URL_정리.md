@@ -32,7 +32,7 @@ page|주석 혹은 본문 내용[URL]
 ||로저 더들러의 깃 가이드[http://rogerdudler.github.io/git-guide]를 살펴보고 리포지토리를 복제하고 변경 사항을 추가, 커밋 및 푸시하고 브랜치를 사용하여 버전 관리를 유지하는 방법을 알아보십시오.|
 ||다음 프롬프트를 사용하여 깃허브에서 이 책과 관련된 리포지토리를 복제하십시오. 또는 깃허브의 리포지토리[https://github.com/aapatel09/handson-unsupervisedlearning]를 방문하여 리포지토리를 수동 다운로드하여 사용할 수 있습니다.|
 ||옮긴이_ LFS란 Large File Storage를 뜻하고 대용량 파일을 관리하는 Git 저장소입니다. 대용량 파일을 복제하기 위해서는 LFS를 로컬 컴퓨터에 설치한 후 리포지토리를 복제해야 파일이 잘 복제됩니다. LFS를 설치하지 않고 리포지토리를 복제할 경우 일부 파일이 복제되지 않습니다. git LFS 설치 파일 다운로드 경로는 다음과 같습니다.[https://git-lfs.github.com]|
-||파이썬과 머신러닝에 필요한 데이터 과학 라이브러리를 설치하려면 파이썬의 아나콘다 배포판[https://www.anaconda.com/distribution]을 다운로드 하십시오|
+||파이썬과 머신러닝에 필요한 데이터 과학 라이브러리를 설치하려면 파이썬의 아나콘다 배포판[https://www.anaconda.com/distribution]을 다운로드 하십시오.|
 ||시스템의 32비트 또는 64비트 버전에 따라 자신의 시스템에 맞는 버전의 XGBoost [https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost]를 다운로드해야합니다.|
 ||fastcluster에 대한 자세한 정보는 [https://pypi.org/project/fastcluster/] 를 참조하십시오.|
 ||옮긴이_ fastcluster 설치 중 다음과 같은 에러 메시지가 나타날 경우 Visual C++ 빌드 도구를 설치해야 합니다. error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/ Visual C++ 빌드 도구 설치를 위해서 에러 메시지에 있는 사이트에 접속 후 Visual Studio Community 버전을 다운로드 후 실행하여 Visual C++ 빌드 도구만 설치합니다.|
@@ -96,7 +96,7 @@ page|주석 혹은 본문 내용[URL]
 page|주석 혹은 본문 내용[URL]
 -----|-----
 ||케라스 순차 모델을 더 자세히 알고 싶으면 다음 공식 문서를 참조하십시오.[https://keras.io/getting-started/sequential-model-guide]|
-||손실 함수를 더 자세히 알고 싶으면 공식 케라스 문서를 참조하십시오[https://keras.io/losses]|
+||손실 함수를 더 자세히 알고 싶으면 공식 케라스 문서를 참조하십시오.[https://keras.io/losses]
 ||확률적 그래디언트 하강법을 더 자세히 알고 싶으면 위키피디아를 참조하십시오.[https://en.wikipedia.org/wiki/Stochastic_gradient_descent]|
 ||옵티마이저를 더 자세히 알고 싶으면 다음 문서를 참조하십시오.[https://keras.io/optimizers.]|
 ||평가지표에 대한 더 자세한 내용은 다음 문서를 참조하십시오.[https://keras.io/metrics]
@@ -120,7 +120,7 @@ page|주석 혹은 본문 내용[URL]
 ||옮긴이_ 일반적으로 풀링(pooling)은 2차원 데이터의 세로, 가로 방향의 공간을 줄이는 연산입니다. 종류로는 최대 풀링(Max Pooling), 평균 풀링(Average Pooling) 등이 있습니다. 최대 풀링은 대상 영역에서 최댓값을 취하는 연산이고, 평균 풀링은 대상 영역의 평균을 계산하는 연산입니다. 보통 이미지 인식 분야에서는 최대 풀링을 주로 사용합니다.[https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer]|
 ||컨볼루션 계층을 더 자세히 살펴보려면 이 장의 앞부분에서 언급한 “An Introduction to Different Types of Convolutions in Deep Learning”을 참조하십시오. [https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d]| 
 ||원본 코드를 보려면 로엘 아티엔자의 GitHub를 방문하십시오.[https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py]|
-||LeakyReLU[https://keras.io/layers/advanced-activations/]는 일반 ReLU와 유사한 고급 활성화 함수이지만 유닛이 활성화되지 않은 경우 작은 그래디언트를 허용합니다. 머신러닝 이미지 문제에서 선호되는 활성화 함수입니다|
+||LeakyReLU[https://keras.io/layers/advanced-activations/]는 일반 ReLU와 유사한 고급 활성화 함수이지만 유닛이 활성화되지 않은 경우 작은 그래디언트를 허용합니다. 머신러닝 이미지 문제에서 선호되는 활성화 함수입니다.|
 ||우리가 만든 솔루션도 성능이 꽤 좋은 편이지만, 그 외에도 MNIST DCGAN의 성능을 향상시킬 수 있는 다양한 방법이 있습니다. “Improved Techniques for Training GANs[https://arxiv.org/pdf/1606.03498.pdf]” 논문과 함께 제공되는 코드[https://github.com/openai/improved-gan]에서 GAN의 성능을 향상시키기 위해 더욱 진보된 방법을 살펴볼 수 있습니다.|
 ||자세한 내용은 OpenAI 블로그의 생성 모델 게시물을 확인하십시오. [https://openai.com/blog/generative-models/]|
 ||더 자세히 알아보고 싶으면 다음 논문을 살펴보십시오. [https://arxiv.org/abs/1406.2661]|
@@ -131,7 +131,7 @@ page|주석 혹은 본문 내용[URL]
 -----|-----
 ||옮긴이_ 스케일링 및 이동의 변화에 불변하는 유사성 척도를 더 알고 싶으면 다음을 참조하십시오.[https://patents.google.com/patent/KR101649766B1/ko]|
 ||이 논문은 여기에 공개되어 있습니다. [http://www.cs.columbia.edu/~jopa/kshape.html]|
-||UCR 시계열 웹 사이트에서 파일을 다운로드해야 합니다[https://www.cs.ucr.edu/~eamonn/time_series_data/].|
+||UCR 시계열 웹 사이트에서 파일을 다운로드해야 합니다.[https://www.cs.ucr.edu/~eamonn/time_series_data/]|
 ||하이퍼파라미터에 대한 자세한 내용은 공식 k-shape 문서를 참조하십시오. [https://tslearn.readthedocs.io/en/latest/gen_modules/clustering/tslearn.clustering.KShape.html#tslearn.clustering.KShape]|
 ||Rand 지수에 대한 자세한 내용은 Wikipedia를 참조하십시오. [https://en.wikipedia.org/wiki/Rand_index]|
 
