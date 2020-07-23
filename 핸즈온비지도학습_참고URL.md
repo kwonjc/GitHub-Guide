@@ -1,3 +1,5 @@
+# 핸즈온 비지도학습 실습 데이터
+
 ## 실습 데이터 셋 다운로드 경로 및 참고 사항
 아래 표는 번역서 내용에 포함된 실습 데이터셋, 다운로드 경로 및 참고 사항입니다. 실습 코드를 실행을 위한 데이터셋 다운로드시 참고하시기 바랍니다.
 
@@ -7,7 +9,7 @@
 |3장, 5장, 11장, 12장|	MNIST 데이터셋|	깃허브|	https://github.com/francis-kang/handson-unsupervised-learning/blob/master/datasets/mnist_data/mnist.pkl.gz|	15.4MB||	
 |6장|	랜딩클럽 대출 데이터셋|	깃허브|	https://github.com/francis-kang/handson-unsupervised-learning/blob/master/datasets/lending_club_data/LoanStats3a.csv|	27.9MB|	
 |10장|	무비렌즈 데이터 셋|	웹다운로드|	https://grouplens.org/datasets/movielens/20m/|	190MB|	무비렌즈 웹 사이트 https://grouplens.org/datasets/movielens/20m/ 에서 직접 파일을 다운로드해야 합니다.|
-|13장|	UCR 시계열 컬렉션 데이터셋|	웹다운로드|	https://www.cs.ucr.edu/~eamonn/time_series_data/|	350MB|	UCR 시계열 웹 사이트 https://www.cs.ucr.edu/~eamonn/time_series_data/ 에서  파일을 다운로드해야 합니다. 웹페이지 방문 후 다음 문장 "Then you can download then entire archive " 의 링크를 들어가시거나 다음 URL https://www.cs.ucr.edu/~eamonn/time_series_data/UCR_TS_Archive_2015.zip 로 들어가면 다운로드를 받을 수 있습니다. 압축 데이터를 풀기할때 비밀번호는 attempttoclassify 입니다.|
+|13장|	UCR 시계열 컬렉션 데이터셋|	웹다운로드|	https://www.cs.ucr.edu/~eamonn/time_series_data/|	350MB|	UCR 시계열 웹 사이트 https://www.cs.ucr.edu/~eamonn/time_series_data/ 에서  파일을 다운로드해야 합니다. 웹페이지 방문 후 다음 문장 "Then you can download then entire archive " 의 링크를 들어가시거나 다음 URL https://www.cs.ucr.edu/~eamonn/time_series_data/UCR_TS_Archive_2015.zip 로 들어가면 다운로드를 받을 수 있습니다. 압축 데이터 풀기할때 비밀번호는 attempttoclassify 입니다.|
 
 
 
