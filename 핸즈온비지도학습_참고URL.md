@@ -10,10 +10,8 @@
 [관련 내용]
 $ git clone https://github.com/francis-kang/handson-unsupervised-learning.git
 $ git lfs pull
-옮긴이_ LFS란 Large File Storage를 뜻하고 대용량 파일을 관리하는 깃 저장소입니다. 대용량 파일을 복제하기 위해서는 LFS를 로컬 컴퓨터에 설치한 후 리포지터리를 복제해야 파일이 잘 복제됩니다. LFS를 설치하지 않고 리포지터리를 복제할 경우 일부 파일이 복제되지 않습니다. git LFS 설치 파일 다운로드 경로는 다음과 같습니다.
-https://git-lfs.github.com
-
-웹사이트를 통해서도 다운로드 받을 수 있습니다. 이와 관련된 설명은 번역서 74페이지에 있습니다.|
+옮긴이_ LFS란 Large File Storage를 뜻하고 대용량 파일을 관리하는 깃 저장소입니다. 대용량 파일을 복제하기 위해서는 LFS를 로컬 컴퓨터에 설치한 후 리포지터리를 복제해야 파일이 잘 복제됩니다. LFS를 설치하지 않고 리포지터리를 복제할 경우 일부 파일이 복제되지 않습니다. git LFS 설치 파일 다운로드 경로는 다음과 같습니다.  https://git-lfs.github.com
+웹사이트를 통해서도 다운로드 받을 수 있습니다. 이와 관련된 설명은 번역서 74페이지에 있습니다.
 
 [관련 내용]
 이 데이터셋은 캐글(https://www.kaggle.com/mlg-ulb/creditcardfraud)을 통해 구할 수 있으며, Worldline과 University of
